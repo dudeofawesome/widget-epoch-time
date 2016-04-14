@@ -1,0 +1,45 @@
+// Make sure to use only "DOUBLE QUOTES" throughout your SCSS
+
+// ##### ################## BEGIN SETTINGS #########################
+$color: rgba(255, 255, 255, 1); // Widget color and transparancy   #
+$x: 20px; // X Position                                            #
+$y: 0px; // Y Position                                            #
+$width: 455px; // Width                                            #
+// ######################## BEGIN SETTINGS #########################
+
+@font-face {
+    font-family: Roboto;
+    src: url('epoch-time.widget/fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+#epoch-time-widget-index-js {
+    top: $y;
+    left: $x;
+    width: $width;
+    color: $color;
+    text-align: center;
+}
+
+.epoch-time-widget {
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+}
+
+#epoch-time {
+    width: 100px;
+    height: 50px;
+    color: white;
+    font-family: Roboto;
+    font-size: 50px;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.prepare-loading {
+    transition: opacity 0.5s;
+}
+
+.loading {
+    opacity: 0;
+}

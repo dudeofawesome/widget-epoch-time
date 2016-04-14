@@ -1,0 +1,36 @@
+{
+  "name": "widget-epoch-time.widget",
+  "version": "0.0.1",
+  "description": "Displays current UNIX epoch time. Click to copy to clipboard.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudeofawesome/widget-epoch-time-widget.git"
+  },
+  "keywords": [
+    "Übersicht",
+    "ubersicht",
+    "uebersicht",
+    "widget"
+  ],
+  "author": "Louis Orleans <louis@orleans.io>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dudeofawesome/widget-epoch-time-widget/issues"
+  },
+  "homepage": "https://github.com/dudeofawesome/widget-epoch-time-widget#readme",
+  "devDependencies": {
+    "chalk": "^1.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "^0.0.13",
+    "gulp-sass": "^2.1.1",
+    "gulp-zip": "^3.1.0",
+    "through2": "^2.0.0",
+    "vinyl": "^1.1.1"
+  }
+}
